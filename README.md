@@ -1,5 +1,5 @@
 # Hosting a Full-Stack Application
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/nada-mah/Hosting-a-Full-Stack-Application/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nada-mah/Hosting-a-Full-Stack-Application/tree/master)
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
 ---

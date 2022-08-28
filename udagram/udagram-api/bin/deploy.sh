@@ -1,5 +1,4 @@
-aws s3 cp s3://elasticbeanstalk-us-east-1-588042857045 --sse aws:kms
-cd www
+cd ./www
 eb init $EB_APP --platform node.js --region us-east-1
 eb use $EB_ENV
 eb deploy $EB_ENV
