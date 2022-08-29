@@ -50,7 +50,3 @@ workflows:
   udagram:
     jobs:
       - build
-         filters:
-            branches:
-              only:
-                - master
