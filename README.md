@@ -1,9 +1,5 @@
 # Hosting a Full-Stack Application
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/nada-mah/Hosting-a-Full-Stack-Application/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nada-mah/Hosting-a-Full-Stack-Application/tree/master)
-### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
-
 ---
-
 In this project you will learn how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. You will use the aws console to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers. You will modify your package.json scripts and replace hard coded secrets with environment variables in your code.
 
 After the initial setup, you will learn to interact with the services you started on aws and will deploy manually the application a first time to it. As you get more familiar with the services and interact with them through a CLI, you will gradually understand all the moving parts.
@@ -16,7 +12,8 @@ The project will also include writing documentation and runbooks covering the op
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-
+# Hosted website Link
+`http://elasticbeanstalk-us-east-1-588042857045.s3-website-us-east-1.amazonaws.com`
 
 ### Dependencies
 
@@ -61,6 +58,8 @@ Unit tests are using the Jasmine Framework.
 
 The e2e tests are using Protractor and Jasmine.
 
+## circleci status
+ last deployment [![CircleCI](https://dl.circleci.com/status-badge/img/gh/nada-mah/Hosting-a-Full-Stack-Application/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/nada-mah/Hosting-a-Full-Stack-Application/tree/master)
 ## Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
