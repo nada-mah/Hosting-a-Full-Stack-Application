@@ -47,7 +47,7 @@ jobs:
           command: |
             npm run deploy      
 workflows:
-    udagram:
+  udagram:
     jobs:
     # Build & Deploy project on master Branch
       - build and deploy:
