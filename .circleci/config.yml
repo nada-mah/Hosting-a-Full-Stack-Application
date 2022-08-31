@@ -47,9 +47,10 @@ jobs:
           command: |
             npm run deploy      
 workflows:
-  udagram:
+  deployment:
     jobs:
-      - build and deploy
-       filters:
+    # Build & Deploy project on master Branch
+      - build and deploy:
+         filters:
             branches:
               only: master
