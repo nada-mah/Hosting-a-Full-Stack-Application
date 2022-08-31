@@ -50,3 +50,6 @@ workflows:
   udagram:
     jobs:
       - build and deploy
+       filters:
+            branches:
+              only: master
